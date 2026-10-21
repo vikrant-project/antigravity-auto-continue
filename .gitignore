@@ -1,0 +1,11 @@
+*.dpapi
+*.vscdb*
+*.log
+.env*
+settings.json
+budget.json
+login-profiles/
+tests/live-workspace/
+tools/new-ui.txt
+support-submission.png
+*.zip

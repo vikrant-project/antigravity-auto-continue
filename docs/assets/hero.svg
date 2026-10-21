@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460">
+<defs><linearGradient id="bg"><stop stop-color="#111827"/><stop offset="1" stop-color="#211637"/></linearGradient><linearGradient id="ac"><stop stop-color="#b29aff"/><stop offset="1" stop-color="#67e8d0"/></linearGradient></defs>
+<rect width="1280" height="460" rx="28" fill="url(#bg)"/>
+<circle cx="1100" cy="90" r="180" fill="#a78bfa" opacity=".07"/>
+<text x="70" y="85" fill="#67e8d0" font-family="Segoe UI,Arial" font-size="18" letter-spacing="4">WINDOWS · PORTABLE · OPEN SOURCE</text>
+<text x="70" y="168" fill="#fff" font-family="Segoe UI,Arial" font-weight="700" font-size="62">AntiGravity Repeater</text>
+<text x="74" y="218" fill="#c7c7dd" font-family="Segoe UI,Arial" font-size="25">One prompt. Every time your agent pauses.</text>
+<path d="M75 283H1205" stroke="#414057"/>
+<g font-family="Segoe UI,Arial" font-size="23"><rect x="75" y="317" width="290" height="72" rx="18" fill="#2c2843"/><text x="120" y="361" fill="#d9ceff">01  Wait for idle</text><text x="394" y="362" fill="#a78bfa">→</text><rect x="445" y="317" width="300" height="72" rx="18" fill="#2c2843"/><text x="483" y="361" fill="#d9ceff">02  Send your prompt</text><text x="775" y="362" fill="#a78bfa">→</text><rect x="825" y="317" width="380" height="72" rx="18" fill="#253a3e"/><text x="863" y="361" fill="#91e7d8">03  Verify and repeat ↻</text></g></svg>

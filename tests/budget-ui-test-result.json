@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "finalStatus": "CASCADE_RUN_STATUS_IDLE",
+  "recordedAttempts": 1,
+  "verifiedAgentReplies": 1,
+  "testedAtUtc": "2026-10-21T11:33:12.3318938Z",
+  "stoppedAtBudget": true,
+  "realBudget": 1
+}

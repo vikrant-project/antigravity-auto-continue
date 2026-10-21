@@ -1,0 +1,21 @@
+name: Windows build and regression checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build portable executables
+        shell: powershell
+        run: .\build.ps1
+      - name: Run offline regression checks
+        shell: powershell
+        run: |
+          .\dist\RepeaterDiagnostics.exe --self-test
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - uses: actions/upload-artifact@v4
+        with:
+          name: AntiGravity-Repeater-Windows
+          path: dist/*.exe

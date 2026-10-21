@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "testedAtUtc": "2026-10-21T10:29:10.8078150Z",
+  "conversationId": "be1a95d5-6573-4c46-ab7e-bc0975aa436d",
+  "guiPromptReplies": 1,
+  "repeatLimitStopped": true,
+  "stopButtonVerified": true,
+  "emergencyHotkeyVerified": true,
+  "finalStatus": "CASCADE_RUN_STATUS_IDLE"
+}
